@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 $host = "127.0.0.1"; // '127.0.0.1' is more stable than 'localhost' on some XAMPP setups
-$port = 3307; 
+$port = 3306; 
 $user = "root";
 $pass = "";
 $db   = "nearbuy_db";
